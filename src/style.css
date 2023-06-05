@@ -1,0 +1,100 @@
+
+
+.numeracion {
+    position: relative;
+    right: 200px;
+    top: 142px;
+}
+  
+  
+  
+  ul {
+    border-left: 2px solid white;
+    list-style-type: none;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 4rem;
+  }
+  
+  ul > li {
+    position: relative;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .timeline{
+    margin: 20px;
+    position: relative;
+    border-left: 2px solid gray;
+    list-style: none;
+    left: 10%;
+}
+
+.timeline-icon{
+    position: relative;
+    right: 138px;
+    top: 100px;
+    background: rgb(233, 238, 85);
+    border-radius: 50%;
+    width: 21px;
+    height: 20px;
+}
+
+ 
+  
+  .section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
+    gap: 0.5rem;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    min-width: 250px;
+  }
+  
+  .card:first-child {
+    user-select: none;
+  }
+  
+  .card div:nth-child(2) {
+    display: grid;
+    gap: 0.5rem;
+  }
+  
+  .card h4 {
+    line-height: 19px;
+  }
+  
+  .card .circle {
+    width: 1.2rem;
+    height: 1.2rem;
+    background: #fa8072;
+    border-radius: 100%;
+  }
+  
+  #principalCharacters .card .circle {
+    background: #fa8072;
+  }
+  
+  #secondaryCharacters .card .circle {
+    background: #90ee90;
+  }
+  
+  #otherCharacters .card .circle {
+    background: #87cefa;
+  }
+  
+
+  
+  .card {
+    animation: 1s appear forwards;
+  }
+  
+  
